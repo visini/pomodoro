@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+__pycache__/
+node_modules
+venv
+build
+dist
+.npm
+.node_repl_history
