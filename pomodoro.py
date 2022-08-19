@@ -36,7 +36,7 @@ class PomodoroApp(object):
                 title=self.config["app_name"],
                 subtitle=self.config["break_message"],
                 message='')
-            self.stop_timer()
+            self.stop_timer(self)
             self.stop_button.set_callback(None)
         else:
             self.stop_button.set_callback(self.stop_timer)
